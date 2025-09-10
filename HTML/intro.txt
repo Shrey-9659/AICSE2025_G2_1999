@@ -1,0 +1,59 @@
+VS code : https://code.visualstudio.com/download
+Extension to download : 
+Live server
+Auto rename tag
+color picker
+ES7+
+Git graph
+gitlens
+html css support
+JS JSX snippet
+prettier
+tailwind CSS
+
+
+How to comment in HTML :
+<!-- -->
+
+Heading Tag : 
+h1, h2, h3, h4, h5, h6
+
+Paragraph tag : It doesn't entertain return keys and additional spaces
+p
+
+Preexecution tag: pre
+
+Break tag : 
+br
+
+Horizontal Ruler : 
+hr
+
+Center Align : 
+center
+
+Ordered List : ol
+Unordered List : ul
+List Item : li
+
+image tag : img (src for source, alt for alternate text, height and width)
+
+anchor tag : a (href for navigation link, target)
+
+FORMATTING TAGS : 
+bold : b
+strong : strong
+-----------------
+italic : i
+emphasized : em
+-----------------
+big : big
+small : small
+-----------------
+marque : mark
+-----------------
+inserted : ins
+deleted : del
+-----------------
+subscript : sub
+superscript : sup
