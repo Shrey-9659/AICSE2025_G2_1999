@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <h1>Understanding Forms</h1>
+    </center>
+    <hr />
+    <form>
+      <!-- First Name :  -->
+      <div>
+        <label for="firstName">First Name : </label>
+        <input
+          type="text"
+          name="fname"
+          id="firstName"
+          placeholder="Enter your first name"
+          value=""
+        />
+      </div>
+
+      <!-- Phone Number -->
+      <div>
+        <label for="pNumber">Phone No. :</label>
+        <input
+          type="tel"
+          name="phone"
+          id="pNumber"
+          placeholder="Enter your number"
+        />
+      </div>
+
+      <!-- Age -->
+      <div>
+        <label for="age">Age :</label>
+        <input type="number" name="age" id="age" placeholder="Enter your age" />
+      </div>
+
+      <!-- Email -->
+      <div>
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email" placeholder="Enter email" />
+      </div>
+      <!-- Password -->
+      <div>
+        <label for="pass">Password : </label>
+        <input
+          type="password"
+          name="password"
+          id="pass"
+          placeholder="Enter Password"
+        />
+      </div>
+      <!-- Radio Button -->
+       <div>
+        <p>Choose an option : </p>
+        <label for="male">Male </label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">Female </label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="others">Others </label>
+        <input type="radio" name="gender" id="others" value="others">
+       </div>
+      <button type="submit">Submit</button>
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>

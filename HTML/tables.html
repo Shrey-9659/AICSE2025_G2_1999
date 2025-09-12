@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Understanding Tables in HTML</h1>
+    </center>
+    <hr>
+    <table border="2">
+        <caption>Product List</caption>
+        <thead>
+            <tr>
+            <th>Item Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Marker</td>
+            <td>4</td>
+            <td rowspan="2">50</td>
+        </tr>
+        <tr>
+            <td>Duster</td>
+            <td>1</td>
+
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+            <td colspan="2">Total Amount : </td>
+            <td>300</td>
+        </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
