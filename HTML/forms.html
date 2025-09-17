@@ -1,18 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <center>
-        <h1>Understanding Forms</h1>
+      <h1>Understanding Forms</h1>
     </center>
-    <hr>
-    <form action="/about.html" method="post">
-        <input type="tel" name="tel" id="">
-        <button type="submit">submit</button>
+    <hr />
+    <form>
+      <div>
+        <label for="fullname">Full Name : </label>
+      <input
+        type="text"
+        name="fullname"
+        id="fullname"
+        placeholder="Enter your name"
+        value=""
+      />
+      </div>
+      <!-- tel, number, email, password -->
+      <div>
+        <label for="pNumber">Phone number : </label>
+        <input type="tel" name="phone" id="pNumber" placeholder="Enter your number">
+      </div>
+      <div>
+        <label for="age">Age : </label>
+        <input type="number" name="age" id="age" placeholder="Enter your age">
+      </div>
+      <div>
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+      </div>
+      <div>
+        <label for="pass">Password</label>
+        <input type="password" name="password" id="pass" placeholder="Enter your password">
+      </div>
+      <div>
+        <p>Choose your gender : </p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="others">Others</label>
+        <input type="radio" name="gender" id="others" value="others">
+      </div>
+      <div>
+        <p>Choose Hobbies : </p>
+        <label for="crik">Cricket</label>
+        <input type="checkbox" name="hoobies" id="crik" value="Cricket">
+        <label for="cook">Cooking</label>
+        <input type="checkbox" name="hobbies" id="cook" value="Cooking">
+        <label for="sleep">Sleeping</label>
+        <input type="checkbox" name="hobbies" id="sleep" value="Sleeping">
+      </div>
+      <!-- <div>
+        <label for="food">Choose your favourite meal : </label>
+        <select name="fav_food" id="food">
+          <option value="" disabled selected>Select your food</option>
+          <option value="chicken_biryani">Chicken Biryani</option>
+          <option value="pani_puri">Pani Puri</option>
+          <option value="roti_sabji">Roti Sabji</option>
+        </select>
+      </div> -->
+      <div>
+        <label for="food">Choose your favourite meal : </label>
+        <select name="fav_food" id="food">
+          <option value="" disabled selected>Select your food</option>
+          <optgroup label="Non-Veg">
+            <option value="pani_puri">Pani Puri</option>
+            <option value="roti_sabji">Roti Sabji</option>
+            <option value="paneer">Paneer</option>
+          </optgroup>
+          <optgroup label="Veg">
+            <option value="chicken_biryani">Chicken Biryani</option>
+          </optgroup>
+          <optgroup label="Drinks">
+            <option value="tea">Tea</option>
+            <option value="coffee">Coffee</option>
+          </optgroup>
+        </select>
+      </div>
+      <button type="submit">Submit</button>
+      <input type="reset" value="Reset">
     </form>
-</body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </body>
 </html>
