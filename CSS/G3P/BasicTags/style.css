@@ -1,0 +1,31 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+} */
+ 
+/* #heading{
+    background-color: black;
+    color: white;
+} */
+
+/* Text Align */
+#heading{
+    /* text-align: left; */
+    /* text-align: center; */
+    /* text-align: right; */
+    /* text-align: start; */
+    /* text-align: end; */
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: none; */
+}
+a{
+    text-decoration: none;
+    color: black;
+}
