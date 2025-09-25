@@ -1,0 +1,24 @@
+*{
+    background-color: rgb(232, 212, 170);
+}
+html{
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+}
+
+.box{
+    /* height: 150px;
+    width: 150px; */
+    background-color: rgba(210, 18, 18, 1);
+    /* units */
+    /* width: 50%; */
+    width: 50vw;
+    height: 50px;
+}
+.parent{
+    font-size: 30px;
+}
+.child{
+    font-size: 3rem;
+}

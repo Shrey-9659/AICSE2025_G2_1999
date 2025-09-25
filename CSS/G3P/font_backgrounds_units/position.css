@@ -1,0 +1,24 @@
+.parent{
+    height: 90vh;
+    width: 80%;
+    background-color: rgb(158, 158, 125);
+    padding: 1rem;
+    position: relative;
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: gray;
+    display: inline-block;
+}
+.child3{
+    /* position: static; */
+    /* top: 60px; */
+
+    position: absolute;
+    top: 60px;
+    /* left: 0px; */
+    right: 0px;
+}
