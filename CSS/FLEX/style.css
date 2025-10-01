@@ -1,0 +1,37 @@
+.parent{
+    height: 90vh;
+    width: 80vw;
+    background-color: beige;
+    border: 2px solid black;
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
+}
+
+.child{
+    border: 1px solid black;
+    background-color: rgb(148, 146, 146);
+    height: 150px;
+    width: 150px;
+    margin: 0.8rem;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+
+#box3{
+    /* order: -1; */
+}
