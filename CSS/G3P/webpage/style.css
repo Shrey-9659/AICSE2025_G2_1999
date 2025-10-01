@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.7;
+    background-color: #f7fafc;
+    color: #2d3748;
+}
+
+header{
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+header h1{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+}
+header p{
+    font-size: 1.3em;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.9);
+}
