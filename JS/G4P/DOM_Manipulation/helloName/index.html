@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        input[type="number"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        button {
+            width: 80%;
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        .result {
+            font-weight: bold;
+            color: #28a745;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Calculator</h1>
+        <label for="input1">Number 1:</label>
+        <input type="number" id="input1" placeholder="Enter first number"><br>
+
+        <label for="input2">Number 2:</label>
+        <input type="number" id="input2" placeholder="Enter second number"><br>
+
+        <button id='add'>Add</button>
+        <button id='sub'>Subtract</button>
+        <button id='multiply'>Multiply</button>
+        <button id='divide'>Divide</button><br>
+
+        <h2>Result: <span id="result" class="result">0</span></h2>
+    </div>
+<!-- <script src="script.js"></script> -->
+ <script src="calc.js"></script>
+</body>
+</html>

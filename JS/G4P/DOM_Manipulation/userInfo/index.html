@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Information Form</title>
+
+<style>
+    /* Reset default padding & margins */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background: #e8ebef;
+        height: 100vh;
+        display: flex;
+        justify-content:  space-evenly;
+        align-items: center;
+    }
+
+    .form-container {
+        width: 380px;
+        background: #ffffff;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .form-container h2 {
+        text-align: center;
+        margin-bottom: 22px;
+        color: #333;
+        font-size: 22px;
+    }
+
+    label {
+        font-weight: 600;
+        color: #444;
+        display: block;
+        margin-top: 12px;
+        margin-bottom: 4px;
+    }
+
+    input,
+    select,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #bbb;
+        font-size: 15px;
+        background: #fafafa;
+        outline: none;
+        transition: 0.3s;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+        border-color: #007bff;
+        background: #fff;
+        box-shadow: 0 0 5px rgba(0,123,255,0.3);
+    }
+
+    textarea {
+        resize: none;
+        height: 80px;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 20px;
+        padding: 12px;
+        background: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+        font-weight: 600;
+    }
+
+    button:hover {
+        background: #0056b3;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="form-container">
+    <h2>User Information Form</h2>
+
+    <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your full name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter phone number" required>
+
+        <label>Age</label>
+        <input type="number" min="1" placeholder="Enter age">
+
+        <label>Gender</label>
+        <select>
+            <option disabled selected>Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+
+        <label>Address</label>
+        <textarea placeholder="Enter your address"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<div class="form-container">
+    <center><b>User Information</b></center>
+</div>
+</body>
+</html>
